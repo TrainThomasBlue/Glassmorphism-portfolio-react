@@ -9,7 +9,8 @@ npm run dev
 # ToDO
 
 - ☑️ Add links on Project Cards
-- ⬜ Add New Projects
+- ⏳ Add New Projects
+- ⬜ Beautify the Readme
 - ☑️ Add My Newsletter Editions
 - ☑️ Add Behance Projects
 
