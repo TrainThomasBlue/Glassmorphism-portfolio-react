@@ -45,6 +45,9 @@
 
     <link rel="stylesheet" href="./assets/css/all.min.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <link rel="stylesheet" href="./src/tailwind.css" />
+
     <script defer src="./assets/js/all.js"></script>
     <link
       rel="stylesheet"
@@ -69,7 +72,7 @@
     </div> -->
 
     <section>
-      <div class="container">
+      <div class="container w-[94%]">
         <div id="top" class="page-scroll"></div>
         <!-- Navbar -->
         <header>
@@ -96,8 +99,8 @@
         <!-- Main Content -->
         <div class="content">
           <div class="column">
-            <h2 data-aos="fade-down" data-aos-duration="1000">
-              Hi all, I'm Ansh<span class="wave">👋</span>
+            <h2 data-aos="fade-down" data-aos-duration="1000" class="font-bold">
+              Hey, I'm Ansh<span class="wave">👋</span>
             </h2>
             <p data-aos="fade-right" data-aos-duration="1000">
               Software Development Engineer | Artificial Intelligence | UI/UX Product Designer | Next.js | MERN FullStack Developer | Python | Android Developer (Kotlin)
@@ -269,7 +272,7 @@
             </div>
 
             <div>
-              <p style="color: #444444; font-size: 20px">
+              <p style="color: #444444; font-size: 20px" class="flex space-x-2">
                 <img
                   alt="⚡"
                   draggable="false"
@@ -281,9 +284,10 @@
                     vertical-align: -0.1em;
                   "
                 />
-                Co-founder & Product @MentorHeal | Software Engineer, IdeaLAB | UI/UX | Fullstack Developer
+                <span>
+                Co-founder & Product @MentorHeal | Software Engineer, IdeaLAB | UI/UX | Fullstack Developer</span>
               </p>
-              <p style="color: #444444; font-size: 20px">
+              <p style="color: #444444; font-size: 20px" class="flex space-x-2">
                 <img
                   alt="⚡"
                   draggable="false"
@@ -295,10 +299,10 @@
                     vertical-align: -0.1em;
                   "
                 />
-                4x LinkedIn Top Voice - Artificial Intelligence, Machine
-                Learning, UX, Agile
+                <span>4x LinkedIn Top Voice - Artificial Intelligence, Machine
+                Learning, UX, Agile</span>
               </p>
-              <p style="color: #444444; font-size: 20px">
+              <p style="color: #444444; font-size: 20px" class="flex space-x-2">
                 <img
                   alt="⚡"
                   draggable="false"
@@ -310,9 +314,9 @@
                     vertical-align: -0.1em;
                   "
                 />
-                AIR 10 in Software Conceptual Design at IIT BOMBAY.
+                <span>AIR 10 in Software Conceptual Design at IIT BOMBAY.</span>
               </p>
-              <p style="color: #444444; font-size: 20px">
+              <p style="color: #444444; font-size: 20px" class="flex space-x-2">
                 <img
                   alt="⚡"
                   draggable="false"
@@ -324,7 +328,9 @@
                     vertical-align: -0.1em;
                   "
                 />
+                <span>
                 Co-founder @Internglobally Community - Mentoring 700+ College Students in getting Internships
+                </span>
               </p>
             </div>
           </div>
@@ -454,7 +460,7 @@
               <h5 class="experience-text-role">Frontend Developer</h5>
               <h5 class="experience-text-date">Apr 2023 – Aug 2023</h5>
               <p class="subTitle experience-text-desc">
-                Implementing Next.js, ReactJS and TailwindCSS, resulting in an outstanding 70% reduction in page load times.
+                Implementing Next.js, React JS and TailwindCSS, resulting in an outstanding 70% reduction in page load times.
               </p>
             </div>
           </div>          
@@ -481,10 +487,10 @@
               />
             </div>
             <div class="experience-text-details">
-              <h5 class="experience-text-role">Android Intern (Kotlin)</h5>
+              <h5 class="experience-text-role">Android Intern</h5>
               <h5 class="experience-text-date">Aug 2022 – Sept 2022</h5>
               <p class="subTitle experience-text-desc">
-                A Learning Internship Sponsored by GOOGLE, AICTE & SmartBridge.
+                A Kotlin (Learning-based) Internship Sponsored by GOOGLE, AICTE & SmartBridge.
               </p>
             </div>
           </div>
@@ -613,7 +619,67 @@
 
         </div>
 
-        <!-- 6th Section: Contact Me -->
+        <!-- 6th Section: Behance -->
+       
+        <h2 style="font-size:56px; font-weight: 700; margin-top: 50px;" id="achievements">
+          <span class="low-highlight-pink">
+            <a href="https://www.behance.net/AnshSinghSonkhia" target="”_blank”" style="text-decoration: none; color: #000;">Behance - UI Portfolio</a>
+            </span>
+          </h2>
+        <div class="achievement-cards-div">
+
+          <a href="https://www.behance.net/gallery/185732699/Organic-Food-Product-Page-Modern-UI-Web-Design" target="”_blank”" style="text-decoration: none;">
+            <div class="certificate-card">
+              <div class="certificate-image-div">
+                <img src="https://mir-s3-cdn-cf.behance.net/projects/max_808/0c455d185732699.Y3JvcCw4MDgsNjMyLDAsMA.png" alt="Organic-Food-Product-Page" class="card-image">
+              </div>
+              <div class="certificate-detail-div" style="margin-top: -50px;">
+                <h5 class="card-title">Organic Food Product Page</h5>
+                <p class="card-subtitle">Modern UI Design</p>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://www.behance.net/gallery/185188719/HackFood-App-Food-Delivery-Mobile-UIUX-Case-Study" target="”_blank”" style="text-decoration: none;">
+            <div class="certificate-card">
+              <div class="certificate-image-div">
+                <img src="src/assets/Behance/Behance thumbnail.png" alt="HackFood Delivery App" class="card-image">
+              </div>
+              <div class="certificate-detail-div" style="margin-top: -50px;">
+                <h5 class="card-title">HackFood Delivery App</h5>
+                <p class="card-subtitle">A 9-Minute Food Delivery App</p>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://www.behance.net/gallery/182069183/HackPlant-Plant-Nursery-E-Commerce-App-UIUX-Design" target="”_blank”" style="text-decoration: none;">
+            <div class="certificate-card">
+              <div class="certificate-image-div">
+                <img src="https://mir-s3-cdn-cf.behance.net/projects/max_808/c7818d182069183.Y3JvcCw4MDgsNjMyLDAsMA.png" alt="HackPlant App" class="card-image">
+              </div>
+              <div class="certificate-detail-div" style="margin-top: -50px;">
+                <h5 class="card-title">HackPlant App</h5>
+                <p class="card-subtitle">A Plant Nursery E-Commerce App</p>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://www.behance.net/gallery/185775925/Banking-App-UI-Designs-(Freebies)" target="”_blank”" style="text-decoration: none;">
+            <div class="certificate-card">
+              <div class="certificate-image-div">
+                <img src="https://mir-s3-cdn-cf.behance.net/projects/max_808/513187185775925.Y3JvcCw4MDgsNjMyLDAsMA.png" alt="HackPlant App" class="card-image">
+              </div>
+              <div class="certificate-detail-div" style="margin-top: -50px;">
+                <h5 class="card-title">Banking App UI</h5>
+                <p class="card-subtitle">Download Freebies</p>
+              </div>
+            </div>
+          </a>
+
+        </div>
+
+
+        <!-- 7th Section: Contact Me -->
         <h2 style="font-size:56px; font-weight: 700; margin-top: 50px;" id="contactme"><span class="low-highlight-cyan">Contact Me</span></h2>
         <div class="achievement-cards-div">
 
@@ -656,6 +722,66 @@
                 <p class="card-subtitle"><br></p>
               </div>
             
+            </div>
+          </a>
+
+          <a href="https://github.com/AnshSinghSonkhia" target="”_blank”" style="text-decoration: none;">
+            <div class="certificate-card">
+              <div class="certificate-image-div">
+                <img src="src/assets/github.png" alt="GitHub" class="card-image">
+              </div>
+              <div class="certificate-detail-div">
+                <h5 class="card-title">AnshSinghSonkhia</h5>
+                <p class="card-subtitle"><br></p>
+              </div>
+            
+            </div>
+          </a>
+
+        </div>
+
+      <!-- 8th Section: Business Newsletter -->
+       
+        <h2 style="font-size:56px; font-weight: 700; margin-top: 50px;" id="achievements">
+          <span class="low-highlight-skin">
+            <a href="https://anshsinghsonkhia.substack.com/" target="”_blank”" style="text-decoration: none; color: #000;">Business Newsletter - Get 1.01% Better</a>
+            </span>
+          </h2>
+        <div class="achievement-cards-div flex justify-center items-center">
+
+          <a href="https://anshsinghsonkhia.substack.com/p/fashion-giant-business-5-irresistible" target="”_blank”" style="text-decoration: none;">
+            <div class="certificate-card flex space-x-5 align-top w-[70%] h-40 place-content-center">
+              <div class="certificate-image-div w-1/3">
+                <img src="https://images.unsplash.com/photo-1460904577954-8fadb262612c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDAzMzh8MHwxfHNlYXJjaHwxM3x8c2VjcmV0fGVufDB8fHx8MTY5MTMyNDUzNHww&ixlib=rb-4.0.3&q=80&w=1080" alt="Organic-Food-Product-Page" class="card-image">
+              </div>
+              <div class="certificate-detail-div py-12 w-2/3" style="margin-top: -50px;">
+                <h5 class="card-title">😨 Fashion Giant Business & 5 Irresistible Revenue Ideas</h5>
+                <p class="card-subtitle">You don't know about Zudio & Westsides' Business Uniqueness.. (Issue #3)</p>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://open.substack.com/pub/anshsinghsonkhia/p/secret-of-expand-globally-disrupt?utm_campaign=post&utm_medium=web" target="”_blank”" style="text-decoration: none;">
+            <div class="certificate-card flex space-x-5 align-top w-[70%] h-44 place-content-center">
+              <div class="certificate-image-div w-1/3">
+                <img src="https://substackcdn.com/image/fetch/w_320,h_213,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_center/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F27f670b7-49ed-4c61-876d-ced8fc6cee43_948x612.png" alt="HackFood Delivery App" class="card-image">
+              </div>
+              <div class="certificate-detail-div py-12 w-2/3" style="margin-top: -50px;">
+                <h5 class="card-title">😮 Secret of “Expand Globally: Disrupt Markets!”</h5>
+                <p class="card-subtitle">What? This $15 Billion Company Enters in India with $610M Deal? (Issue #2)</p>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://open.substack.com/pub/anshsinghsonkhia/p/6-revenue-ideas-for-your-startup?utm_campaign=post&utm_medium=web" target="”_blank”" style="text-decoration: none;">
+            <div class="certificate-card flex space-x-5 align-top w-[70%] h-36 place-content-center">
+              <div class="certificate-image-div w-1/3">
+                <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YnVzaW5lc3NtYW58ZW58MHx8MHx8fDA%3D" alt="🤑 6 Revenue Ideas for Your Startup" class="card-image">
+              </div>
+              <div class="certificate-detail-div py-12 w-2/3" style="margin-top: -50px;">
+                <h5 class="card-title">🤑 6 Revenue Ideas for Your Startup</h5>
+                <p class="card-subtitle">The Preply's playbook worth $395M (Issue #1)</p>
+              </div>
             </div>
           </a>
 

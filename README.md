@@ -11,11 +11,13 @@ npm run dev
 - ☑️ Add links on Project Cards
 - ⬜ Add New Projects
 - ⬜ Add My Newsletter Editions
-- ⬜ Add Behance Projects
+- ☑️ Add Behance Projects
 
+```markdown
 - ⬜ Task 1 (Not started)
 - ☑️ Task 2 (Completed)
 - ⏳ Task 3 (In progress)
+```
 
 
 
