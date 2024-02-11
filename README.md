@@ -6,7 +6,16 @@ npm run dev
 
 
 
+# ToDO
 
+- ☑️ Add links on Project Cards
+- ⬜ Add New Projects
+- ⬜ Add My Newsletter Editions
+- ⬜ Add Behance Projects
+
+- ⬜ Task 1 (Not started)
+- ☑️ Task 2 (Completed)
+- ⏳ Task 3 (In progress)
 
 
 
