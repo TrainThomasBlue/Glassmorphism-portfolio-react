@@ -10,7 +10,7 @@ npm run dev
 
 - ☑️ Add links on Project Cards
 - ⬜ Add New Projects
-- ⬜ Add My Newsletter Editions
+- ☑️ Add My Newsletter Editions
 - ☑️ Add Behance Projects
 
 ```markdown
