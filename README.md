@@ -5,6 +5,10 @@
   <code><img height="30" src="https://img.shields.io/badge/CSS-111111?style=for-the-badge&logo=css3&logoColor=00caff"></code>
   <code><img height="30" src="https://img.shields.io/badge/Tailwind%20CSS-111111?style=for-the-badge&logo=tailwindcss&logoColor=00caff"></code>
   <code><img height="30" src="https://img.shields.io/badge/JavaScript-111111?style=for-the-badge&logo=javascript&logoColor=F7DF1E"></code>
+
+# Screenshots
+
+![](https://github.com/AnshSinghSonkhia/Glassmorphism-portfolio-react/blob/main/Screenshots/Glassmorphism1.png)
   
 
 # To Run:
