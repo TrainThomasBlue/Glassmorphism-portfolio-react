@@ -1,10 +1,17 @@
+# Tech-Stack:
+
+  <code><img height="30" src="https://img.shields.io/badge/React%20js-111111?style=for-the-badge&logo=react&logoColor=00caff"></code>
+  <code><img height="30" src="https://img.shields.io/badge/HTML-111111?style=for-the-badge&logo=html5&logoColor=ff0000"></code>
+  <code><img height="30" src="https://img.shields.io/badge/CSS-111111?style=for-the-badge&logo=css3&logoColor=00caff"></code>
+  <code><img height="30" src="https://img.shields.io/badge/Tailwind%20CSS-111111?style=for-the-badge&logo=tailwindcss&logoColor=00caff"></code>
+  <code><img height="30" src="https://img.shields.io/badge/JavaScript-111111?style=for-the-badge&logo=javascript&logoColor=F7DF1E"></code>
+  
+
 # To Run:
 
 ```shell
 npm run dev
 ```
-
-
 
 # ToDO
 
@@ -14,16 +21,13 @@ npm run dev
 - ☑️ Add My Newsletter Editions
 - ☑️ Add Behance Projects
 
+<!--
 ```markdown
 - ⬜ Task 1 (Not started)
 - ☑️ Task 2 (Completed)
 - ⏳ Task 3 (In progress)
 ```
-
-
-
-
-
+-->
 
 # React + Vite
 
@@ -33,8 +37,6 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-
 
 # Add Experience Card:
 
