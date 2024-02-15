@@ -9,6 +9,7 @@
 # Screenshots
 
 ![](https://github.com/AnshSinghSonkhia/Glassmorphism-portfolio-react/blob/main/Screenshots/Glassmorphism1.png)
+![](https://github.com/AnshSinghSonkhia/Glassmorphism-portfolio-react/blob/main/Screenshots/Glassmorphism2.png)
   
 
 # To Run:
